@@ -1,0 +1,23 @@
+def greet_user(name):
+    """Print a greeting message for the user."""
+    print(f"Hello, {name}! Welcome to the program.")
+
+def calculate_sum(a, b):
+    """Return the sum of two numbers."""
+    return a + b
+
+def main():
+    # Greet the user
+    user_name = input("Enter your name: ")
+    greet_user(user_name)
+
+    # Calculate the sum of two numbers
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    result = calculate_sum(num1, num2)
+
+    # Display the result
+    print(f"The sum of {num1} and {num2} is {result}.")
+
+if __name__ == "__main__":
+    main()
